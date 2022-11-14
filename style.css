@@ -35,8 +35,7 @@ nav {
 
 .awesome-text {
     width: 425px;
-    height: 200px;
-    flex-shrink: 0;
+    height: 250px;
 }
 
 .awesome {
@@ -47,15 +46,20 @@ nav {
 .text1 {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px 0px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-color: #1F2937;
     font-size: 20px;
-    border: 0;
     padding: 5px 25px;
     border-radius: 8px;
+}
+
+.button1 {
+    border: 0;
 }
 
 .img1 {
@@ -118,4 +122,29 @@ button {
     background-color: #E5E7EB;
     color: #1F2937;
     padding: 100px 200px;
+}
+
+.container4 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.text3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button2 {
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 35px 0px;
 }
